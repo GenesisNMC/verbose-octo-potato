@@ -30,6 +30,8 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href=#who-we-are>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href=#membership>Membership</a></li>
+                    <li class="nav-item"><a class="nav-link" href=#when-and-where>When and Where</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Links</a></li>
                 </ul>
@@ -40,8 +42,7 @@
         <div class="masthead-content">
             <div class="container">
                 <h1 class="masthead-heading mb-0">Lighthall Badminton Club</h1>
-                <!-- <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2> -->
-                <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#!">Contact us</a>
+                <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#contact-form">Contact us</a>
             </div>
         </div>
         <div class="bg-circle-1 bg-circle"></div>
@@ -75,15 +76,51 @@
                     <div class="p-5"><img class="img-fluid rounded-circle"
                             src="assets/img/salman-hossain-saif-24zMNigMa5A-unsplash.jpg" alt="..." /></div>
                 </div>
-                <div class="col-lg-6">
+                <div id="membership" class="col-lg-6">
                     <div class="p-5">
                         <h2 class="display-4">Membership</h2>
                         <p>Our membership fee is amongst the most competitive with 4 hours of court time a week. We play
-                            throughout the year. If you would like to try out our club, please contact either
-                            <a href="mailto:Deven_o@yahoo.co.uk">Deven Odedra</a>
+                            throughout the year. If you would like to try out our club, please contact <a
+                                href="mailto:deven_o@yahoo.co.uk">Deven Odedra</a>
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/three-shuttles.jpg"
+                            alt="..." /></div>
+                </div>
+                <div id="when-and-where" class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">When and Where</h2>
+                        <p>We meet on Monday nights at Langley School from 7.30- 10.00p.m. Also at Lode Heath School on
+                            Thursday
+                            nights from 8.00-10.00pm. We have four courts available in both halls and we use quality
+                            feather
+                            shuttles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="text-center">
+                <h4>Langely Secondary School (Mondays) - Kineton Green Road, Solihull, B92 7ER</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1216.3982978023935!2d-1.8133238915969543!3d52.428483144949304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b988c2d700f1%3A0xcc974c01bc8f0371!2sKineton%20Green%20Rd%2C%20Solihull%20B92%207ER!5e0!3m2!1sen!2suk!4v1619884197016!5m2!1sen!2suk"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="text-center">
+                <h4>​Lode Heath School (Thursdays) - Lode Lane, Solihull, B91 2HW</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.9202894162727!2d-1.7788605838314846!3d52.42624197979651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b9fc2a493811%3A0x3f4867ab39ed761f!2sLode%20Ln%2C%20Solihull%20B91%202HW!5e0!3m2!1sen!2suk!4v1619885150858!5m2!1sen!2suk"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
@@ -91,34 +128,36 @@
     <section>
         <div class="container">
             <div class="row align-items-center">
-                <h2 class="display-4">When and Where</h2>
-                <p>We meet on Monday nights at Langley School from 7.30- 10.00p.m. Also at Lode Heath School on Thursday
-                    nights from 8.00-10.00pm. We have four courts available in both halls and we use quality feather
-                    shuttles.</p>
+                <div class="col-lg-6">
+                    <div class="p-5"><img class="img-fluid" src="assets/img/swaraj-tiwari-Z707kEbOICs-unsplash.jpg"
+                            alt="..." /></div>
+                </div>
+                <div id="contact" class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">Contact Us</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="contact-us-email"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-us-subject">Message</label>
+                                <input type="text" class="form-control" id="contact-us-subject" placeholder="Subject"
+                                    rows=10>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <h3>Locations</h3>
-                </div>
-
-                <div>
-                    <h4>Langely Secondary School - (Mondays) - Kineton Green Road , Solihull , B92 7ER</h4>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1216.3982978023935!2d-1.8133238915969543!3d52.428483144949304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b988c2d700f1%3A0xcc974c01bc8f0371!2sKineton%20Green%20Rd%2C%20Solihull%20B92%207ER!5e0!3m2!1sen!2suk!4v1619884197016!5m2!1sen!2suk"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div>
-                    <br>
-                    <br>
-                </div>
-                <div>
-                    <h4>​Lode Heath School (Thursdays) - Lode Lane, Solihull, B91 2HW</h4>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.9202894162727!2d-1.7788605838314846!3d52.42624197979651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b9fc2a493811%3A0x3f4867ab39ed761f!2sLode%20Ln%2C%20Solihull%20B91%202HW!5e0!3m2!1sen!2suk!4v1619885150858!5m2!1sen!2suk"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
+        </div>
     </section>
+
     <!-- Footer-->
     <footer class="py-5 bg-black">
         <div class="container">
